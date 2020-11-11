@@ -14,7 +14,7 @@ namespace Palindrome
                 input = Console.ReadLine();
                 if (input.Equals(""))
                 {
-                    Console.WriteLine("No characters were found in the previous string. Please enter a string of one or more characters");
+                    Console.WriteLine("No characters were found in the previous string. Please enter a string of one or more characters.");
                 }
                 else
                 {
@@ -24,11 +24,11 @@ namespace Palindrome
 
             if (PalindromeChecker.IsPalindrome(input))
             {
-                Console.WriteLine("The string you entered is a palindrome");
+                Console.WriteLine("The string you entered is a palindrome.");
             }
             else
             {
-                Console.WriteLine("The string you entered is not a palindrome");
+                Console.WriteLine("The string you entered is not a palindrome.");
             }
 
             Console.WriteLine("Press any key to exit the program.");
