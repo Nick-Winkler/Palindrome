@@ -30,6 +30,9 @@ namespace Palindrome
             {
                 Console.WriteLine("The string you entered is not a palindrome");
             }
+
+            Console.WriteLine("Press any key to exit the program.");
+            Console.ReadKey();
         }
     }
 }
