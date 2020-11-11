@@ -6,7 +6,7 @@ namespace Palindrome
     {
         static void Main()
         {
-            Console.WriteLine("Please enter a string of alphanumeric characters and press enter:\n");
+            Console.WriteLine("Please enter a string of alphanumeric characters and press enter:");
 
             string input;
             while (true)
